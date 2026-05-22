@@ -1,31 +1,39 @@
 # 📂 Exercise 01: Python Fundamentals Practice
 
-[cite_start]This directory contains my solutions for **Exercise 01**, focusing on foundational Python programming concepts. [cite_start]The exercise is split into two core parts designed to test arithmetic, conditional logic, loops, and user input validation[cite: 2, 24].
+Welcome to the repository for **Exercise 01**. This project focuses on mastering foundational Python programming concepts through hands-on scripting challenges. The exercises are structured into two distinct modules designed to test core arithmetic, conditional flow, loop mechanics, and user input validation.
 
 ---
 
-## 📝 Exercise Breakdown
+## 📝 Project Structure
+
+The repository is organized into two primary segments:
 
 ### 🔹 PART 01: Core Basics & Logic
-1. [cite_start]**Basic Arithmetic Operations:** Practicing simple calculations (addition, subtraction, multiplication, division, and modulo)[cite: 3, 5, 7, 9, 11, 13].
-2. [cite_start]**Triangle Validity Checker:** A program that takes three side lengths from a user and applies the *Triangle Inequality Theorem* to check if they can form a valid triangle[cite: 14, 15].
-3. [cite_start]**Simple Calculator Simulation:** Asks the user for two numbers and an operator ($+, -, x, \div$), then prints the calculated result with a friendly message[cite: 16, 17, 18, 19].
-4. [cite_start]**Subject Marks Calculator (For Loop):** Dynamically takes marks for 5 different subjects using a `for` loop and outputs the total score[cite: 20].
-5. [cite_start]**Continuous Password Gatekeeper (While Loop):** A script that repeatedly prompts the user for a password until the correct key (`python123`) is provided to grant access[cite: 21, 22, 23].
-
----
+* **Basic Arithmetic Operations:** Core scripts practicing standard mathematical evaluations (addition, subtraction, multiplication, division, and modulo).
+* **Triangle Validity Checker:** An interactive program utilizing the *Triangle Inequality Theorem* to determine if three user-provided side lengths can form a valid triangle.
+* **Simple Calculator Simulation:** A terminal-based calculator processing two dynamic inputs against standard operators ($+, -, x, \div$).
+* **Subject Marks Calculator (`for` loop):** A loop-driven algorithm that dynamically captures academic scores across 5 distinct subjects to output a consolidated total.
+* **Continuous Password Gatekeeper (`while` loop):** A security gateway script that indefinitely restricts system access until the pre-defined key (`python123`) is correctly entered.
 
 ### 🔹 PART 02: Comparisons, Conditions & Systems
-1. [cite_start]**Comparison & Logical Operators:** Exploring comparison operators ($>$, $==$, $!=$, $<=$) and logical operations (`and`)[cite: 25, 27, 28, 29, 30].
-2. [cite_start]**BMI Calculator & Classifier:** Collects a user's weight (kg) and height (m), calculates their BMI ($weight / height^2$), and classifies them into health categories (Underweight, Normal, Overweight)[cite: 31, 32, 33, 34].
-3. [cite_start]**Student Grade Management System:** An interactive script that captures a student's name and 3 subject marks, calculates their final percentage, assigns a letter grade (A to F), and prints a comprehensive marksheet[cite: 35, 36, 37, 38, 39, 40, 41, 42, 43].
-4. [cite_start]**Sum of Natural Numbers (For Loop):** Accepts a user-defined number $n$ and sums up all natural numbers from 1 to $n$[cite: 44, 45].
-5. [cite_start]**E-Commerce Checkout Simulation (While Loop):** Continually records item prices during a shopping simulation, stopping automatically once the cumulative bill hits or exceeds Rs.1000[cite: 46, 47, 48, 49].
+* **Comparison & Logical Operators:** Practical implementation testing evaluation matrices ($>$, $==$, $!=$, $<=$) paired with logical (`and`) operators.
+* **BMI Calculator & Classifier:** A health-index metric script calculating body mass index ($weight / height^2$) and parsing the output into standardized medical health brackets.
+* **Student Grade Management System:** A complete interactive terminal utility that maps a student profile against 3 subject metrics to compile final percentages and assign corresponding academic letter grades (A to F).
+* **Sum of Natural Numbers (`for` loop):** A localized mathematical loop calculating the absolute sum of all natural integers up to a user-defined threshold $n$.
+* **E-Commerce Checkout Simulation (`while` loop):** A dynamic shopping cart system that continuously accumulates itemized price listings, auto-terminating the session when the cumulative bill matches or exceeds Rs.1000.
 
 ---
 
 ## 🚀 Concepts Mastered
-* [cite_start]Handling variable declaration and arithmetic expressions[cite: 3, 25].
-* [cite_start]Taking interactive inputs using `input()` and typecasting (`int`, `float`)[cite: 14, 17, 32].
-* [cite_start]Applying structural logic using `if-elif-else` conditional branches[cite: 14, 34, 39].
-* [cite_start]Implementing definite iterations with `for` loops and indefinite loops with `while` statements[cite: 20, 21, 44, 46].
+
+By completing these exercises, the following structural Python proficiencies were achieved:
+* **Variables & Expressions:** Memory management, clean assignments, and working with complex arithmetic structures.
+* **Interactive I/O:** Capturing real-time user arguments with standard `input()` and handling data safety via explicit typecasting (`int()`, `float()`).
+* **Control Flow:** Structuring multi-tiered logical paths using `if-elif-else` conditional architecture.
+* **Iteration Mechanics:** Writing predictable loops via explicit sequential `for` steps alongside defensive, logic-dependent `while` loops.
+
+---
+
+## 🛠️ Tech Stack & Requirements
+* **Language:** Python 3.x
+* **Environment:** Terminal / Command Prompt
